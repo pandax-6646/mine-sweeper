@@ -1,0 +1,126 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+#mine{
+  margin: 50px auto;
+}
+
+.level{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.level button{
+  padding: 5px 15px;
+  border: none;
+  color: #fff;
+  background-color: #02a4ad;
+  border-radius: 3px;
+
+  outline: none;
+  cursor: pointer;
+}
+
+.level button.active{
+  background-color: #00abff;
+}
+
+table{
+  border-spacing: 1px;
+  background-color: #929196;
+  margin: 20px auto;
+}
+
+td{
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  border: 2px solid;
+  border-color: #fff #a1a1a1 #a1a1a1 #fff;
+  background-color: #ccc;
+
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold; 
+  font-family:'宋体';
+}
+
+td.zero{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+}
+
+td.one{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #0332fe;
+}
+
+td.two{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #019f02;
+}
+
+td.three{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #ff2600;
+}
+
+td.four{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #93208f;
+}
+
+td.five{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #ff7f29;
+}
+
+td.six{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #ff3fff;
+}
+
+td.seven{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #3fffbf;
+}
+
+td.eight{
+  background: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #22ee0f;
+}
+
+.gameBox ::selection {
+  background: none;
+}
+
+.info{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.info div{
+  margin-top: 15px;
+}
+
+.mine{
+  background: #d9d9d9 url(./pic/mine.png) no-repeat center;
+  background-size: cover;
+}
+
+.flag{
+  background: #ccc url(./pic/flag.png) no-repeat center;
+  background-size: cover;
+}
+
