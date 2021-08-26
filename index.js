@@ -246,7 +246,7 @@ class Mine {
     }
   }
 
-  
+
 
   // 开始游戏的方法
   play(event) {
@@ -340,7 +340,7 @@ class Mine {
     if (dom) {
       dom.style.backgroundColor = '#ff0';
     }
-    alert( '游戏结束！' + '所用时间为：' + this.getGameTime());
+    alert('游戏结束！' + '所用时间为：' + this.getGameTime());
   }
 
 
@@ -373,7 +373,7 @@ class Mine {
 
 // 游戏难度按钮
 let oBtnArr = [...document.getElementsByTagName('button')];
-let arr = [[15, 15, 15], [20, 25, 50], [25, 35, 175]];
+let arr = [[15, 15, 15], [20, 25, 50], [20, 40, 175]];
 let lastActiveIndex = 0;
 let mine;
 
@@ -391,7 +391,7 @@ oBtnArr.forEach(function (oBtn, index) {
       mine = new Mine(...arr[lastActiveIndex]);
       mine.init();
 
-    // 选择游戏难度 
+      // 选择游戏难度 
     } else {
       // button按钮的选中和切换
       oBtnArr[lastActiveIndex].className = '';
